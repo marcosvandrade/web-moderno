@@ -74,7 +74,7 @@
         const novoInicio = inicio - passo
         if(novoInicio >= fim) {
             elem.style.left = novoInicio + 'px'
-            setTimeout(() => mover(elem, novoInicio, fim, passo, callback), 7)
+            setTimeout(() => mover(elem, novoInicio, fim, passo, callback), 20)
         } else {
             callback()
         }
