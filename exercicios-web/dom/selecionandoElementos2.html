@@ -7,15 +7,15 @@
 </head>
 <body class="conteudo exercicio">
     <div id="primeiro">#primeiro</div>
-    <div wb-attrib>Segundo</div>
+    <div>Segundo</div>
     <div class="ultimo terceiro"><span wb-attrib>.terceiro .ultimo</span></div>
     <script>              
         document.querySelector('#primeiro').classList.add('destaque')
 
         const selecionar = seletor =>
-            document.querySelectorAll(seletor).forEach(e => e.classList.add('destaque'))
+             document.querySelectorAll(seletor).forEach(e => e.classList.add('destaque'))
         const deselecionar = seletor =>
-            document.querySelectorAll(seletor).forEach(e => e.classList.remove('destaque'))
+             document.querySelectorAll(seletor).forEach(e => e.classList.remove('destaque'))
 
         selecionar('div')
 
