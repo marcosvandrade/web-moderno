@@ -28,12 +28,16 @@
         body.appendChild(div2)
         body.appendChild(div3)
 
-        const texto = document.createTextNode('Antes...')
+        // const texto = document.createTextNode('Antes...')
+        // div3.insertBefore(texto, div3.childNodes[0])
+
+        const texto = document.createElement('p')
+        texto.innerHTML = 'Antes...'
         div3.insertBefore(texto, div3.childNodes[0])
 
         const div4 = div3.cloneNode(true)
         body.appendChild(div4)
-        body.removeChild(div3)
+        //body.removeChild(div3)
     </script>
 </body>
 
