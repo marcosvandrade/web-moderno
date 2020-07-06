@@ -11,7 +11,7 @@
     position: relative;
     border: 5px solid dodgerblue;
     height: 500px;
-    width: 700px;
+    width: 800px;
     margin: 15px;
     background-color: deepskyblue;
     overflow: hidden;
@@ -21,7 +21,7 @@
     position: absolute;
     width: 60px;
     left: calc(50% - 30px);
-    bottom: 50%;
+    /* bottom: 50%; */
 }
 
 .par-de-barreiras {
@@ -41,14 +41,14 @@
 
 .barreira .borda {
     height: 30px;
-    width: 130px;
+    width: 80px;
     background: linear-gradient(90deg, #639301, #A5E82E);
     border: 2px solid #000;
 }
 
 .barreira .corpo {
-    height: 150px;
-    width: 110px;
+    height: 100px;
+    width: 60px;
     background: linear-gradient(90deg, #639301, #A5E82E);
     border-left: 2px solid #000;
     border-right: 2px solid #000;
@@ -60,5 +60,5 @@
     right: 10px;
     font-family: Pixel;
     font-size: 40px;
-    /* z-index: 100; */
+    z-index: 100;
 }
