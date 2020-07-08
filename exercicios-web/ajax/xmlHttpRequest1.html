@@ -13,7 +13,7 @@
     <script>
         function ajax(config) {
             const xhr = new XMLHttpRequest()
-            xhr.open(config.metodo, config.url, true)
+            xhr.open(config.metodo, config.url, true) // true ~ assyncrona
 
             xhr.onload = e => {
                 if (xhr.status === 200) {
