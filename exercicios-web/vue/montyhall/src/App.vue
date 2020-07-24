@@ -73,7 +73,7 @@ body {
 
 .form, .form input, .form button {
     margin-bottom: 10px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .doors {
